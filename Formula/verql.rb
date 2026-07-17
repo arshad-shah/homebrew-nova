@@ -9,9 +9,9 @@
 class Verql < Formula
   desc "Fast, extensible desktop database client"
   homepage "https://github.com/arshad-shah/verql"
-  version "1.5.0"
+  version "1.6.0"
   url "https://github.com/arshad-shah/verql/releases/download/v#{version}/verql-#{version}-x86_64.AppImage"
-  sha256 "137ea4ef26433cfd8e3ec6e933c14daa2a91b5622d6ff6e06fb3884dc9e03146"
+  sha256 "b574439eff813c94163a4a0e0354db302683cd507f2898727af58a0e2a712565"
   license "MIT"
 
   # AppImages are self-contained; they only need a FUSE runtime at launch.
