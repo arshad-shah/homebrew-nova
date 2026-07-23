@@ -4,16 +4,16 @@
 # Ruby interpolation of `version` and match electron-builder's lowercase output
 # (verql-<version>-<arch>.dmg).
 cask "verql" do
-  version "1.6.0"
+  version "1.7.0"
 
   on_arm do
-    sha256 "e6135154b3dd0719b2762a93bdb2f9080db64de5675a0aca8089fa3e9590f962"
+    sha256 "9eb357f8112a8cfbe332a911db04bb9f7f8219749fe3e5e3e099498790563fba"
     url "https://github.com/arshad-shah/verql/releases/download/v#{version}/verql-#{version}-arm64.dmg",
         verified: "github.com/arshad-shah/verql/"
   end
 
   on_intel do
-    sha256 "5ca2bf53e821cefe2716f1a1e6cc60b1789916ec0138e53a212b351239911605"
+    sha256 "5a981ac81db8f7f4b29c110a888b5fc1122282654c01d254ce1d11610b8a28a9"
     url "https://github.com/arshad-shah/verql/releases/download/v#{version}/verql-#{version}-x64.dmg",
         verified: "github.com/arshad-shah/verql/"
   end
